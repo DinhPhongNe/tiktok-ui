@@ -1,13 +1,13 @@
-import Header from '~/components/Layouts/DefaultLayout/Header'
+import Header from "~/components/Layout/DefaultLayout/Header";
+
 function Upload() {
-    return (
+    return ( 
         <div>
-            <Header />
             <div className="content">
                 <h2>Upload</h2>
             </div>
         </div>
-    )
+     );
 }
 
 export default Upload;
